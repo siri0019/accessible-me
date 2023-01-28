@@ -48,19 +48,13 @@ a:focus {
   padding-top: 25px;
 }
 
-img {
-  width: 100%;
-  height: 580px;
-  padding-top: 10px;
-  border-radius: 4%;
-}
 
 .main-nav ul {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
   margin: 0;
-  padding: 0;
+  padding: 10px;
 }
 
 .main-nav ul li {
@@ -72,11 +66,18 @@ img {
   display: block;
   color: inherit;
   text-decoration: none;
-  font-size: 1.80rem;
+  font-size: 1.8rem;
 }
 
 .main-nav ul li a:hover {
   color: blue;
+}
+
+img {
+  width: 100%;
+  height: 580px;
+  border-radius: 4%;
+  border: 4px solid#383838;
 }
 
 .main-content p {
