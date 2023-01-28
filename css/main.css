@@ -126,6 +126,6 @@ form button:hover {
 }
 
 .site-footer a:hover {
-  color: blue;
+  color: rgb(9, 9, 54);
   font-size: 100%;
 }
