@@ -116,6 +116,16 @@ form button {
   text-transform: uppercase;
 }
 
+form button:hover {
+  background-color: black;
+}
+
 .site-footer {
   padding: 2rem 0;
+  font-size: 90%;
+}
+
+.site-footer a:hover {
+  color: blue;
+  font-size: 100%;
 }
