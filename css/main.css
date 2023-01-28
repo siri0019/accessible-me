@@ -1,7 +1,7 @@
 body {
   font-family: 'Roboto', Helvetica, sans-serif;
-  background-color: #ABA6A6;
-  font-size: 20px;
+  background-color: #BFBFBF;
+  font-size: 22px;
   margin: 0;
   padding: 0;
 }
@@ -70,7 +70,11 @@ img {
   display: block;
   color: inherit;
   text-decoration: none;
-  font-size: 1.25rem;
+  font-size: 1.50rem;
+}
+
+.main-nav ul li a:hover {
+  color: blue;
 }
 
 form input,
